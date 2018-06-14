@@ -1,5 +1,5 @@
 {
-    "name": "waypointbuilding/laravel-excel",
+    "name": "maatwebsite/excel",
     "description": "An eloquent way of importing and exporting Excel and CSV in Laravel 4 with the power of PHPExcel",
     "license": "MIT",
     "keywords": [
@@ -19,13 +19,24 @@
     ],
     "repositories": [
         {
-            "type": "git",
-            "url": "git@github.com:waypointbuilding/PHPExcel.git"
+            "type": "package",
+            "package": {
+                "name": "phpoffice/phpexcel",
+                "version": "1.8.1",
+                "source": {
+                    "url": "https://github.com/waypointbuilding/PHPExcel.git",
+                    "type": "git",
+                    "reference": "1.8"
+                },
+                "autoload": {
+                    "classmap": [""]
+                }
+            }
         }
     ],
     "require": {
         "php": ">=5.5",
-        "waypointbuilding/phpexcel": "^1.8.1",
+        "phpoffice/phpexcel": "1.8.1",
         "illuminate/cache": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*",
         "illuminate/config": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*",
         "illuminate/filesystem": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*",
