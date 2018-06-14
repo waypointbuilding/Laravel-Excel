@@ -19,20 +19,8 @@
     ],
     "repositories": [
         {
-            "type": "package",
-            "package": {
-                "name": "waypointbuilding/phpexcel",
-                "version": "1.8.1",
-                "source": {
-                    "type": "git",
-                    "url": "git://github.com/waypointbuilding/phpexcel.git",
-                    "reference": "1.8"
-                },
-                "dist": {
-                    "url": "https://github.com/waypointbuilding/phpexcel/archive/1.8.zip",
-                    "type": "zip"
-                }
-            }
+            "type": "git",
+            "url": "git@github.com:waypointbuilding/PHPExcel.git"
         }
     ],
     "require": {
