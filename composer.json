@@ -27,6 +27,11 @@
                     "url": "https://github.com/waypointbuilding/PHPExcel/archive/1.8.zip",
                     "type": "zip"
                 },
+                "source": {
+                    "url": "https://github.com/waypointbuilding/PHPExcel.git",
+                    "type": "vcs",
+                    "reference": "1.8.2"
+                },
                 "autoload": {
                     "classmap": [""]
                 }
